@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+</head>
+<body>
+    <h1>Music Player</h1>
+    <button id="playButton">Play Song</button>
+    <button id="stopButton">Stop Song</button>
+
+    <script>
+        function playSong() {
+            console.log('Song is playing...');
+        }
+
+        function stopSong() {
+            console.log('Song is stopped.');
+        }
+
+        document.getElementById('playButton').addEventListener('click', playSong);
+        document.getElementById('stopButton').addEventListener('click', stopSong);
+    </script>
+</body>
+</html>
